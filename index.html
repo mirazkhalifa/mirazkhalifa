@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Md. Miraz Khalifa | Business Development Manager</title>
+  <meta name="description" content="Personal portfolio, products and blog of Md. Miraz Khalifa.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="nav-wrap">
+    <a class="brand" href="#home"><span id="brandName">Md. Miraz Khalifa</span></a>
+    <nav>
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#products">Products</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+    </nav>
+    
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">BUSINESS DEVELOPMENT • DIGITAL SOLUTIONS</p>
+    <h1 id="heroTitle">Md. Miraz Khalifa</h1>
+    <h2 id="heroRole">Business Development Manager</h2>
+    <p id="heroIntro">Helping businesses choose practical digital solutions that improve efficiency, visibility and customer experience.</p>
+    <div class="hero-actions"><a href="#products" class="primary">Explore Products</a><a href="#contact" class="secondary">Contact Me</a></div>
+  </div>
+  <div class="hero-photo"><img id="heroImage" src="assets/miraz-1.jpeg" alt="Md. Miraz Khalifa"></div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-heading"><span>01</span><h2>About Me</h2></div>
+  <div class="about-grid">
+    <div><img id="aboutImage" class="about-photo" src="assets/miraz-2.jpeg" alt="About Miraz"></div>
+    <div><p id="aboutText"></p><div class="stats"><div><strong id="stat1">Business</strong><span>Development</span></div><div><strong id="stat2">Digital</strong><span>Solutions</span></div><div><strong id="stat3">Client</strong><span>Focused</span></div></div></div>
+  </div>
+</section>
+
+<section id="experience" class="section alt">
+  <div class="section-heading"><span>02</span><h2>Work Experience</h2></div>
+  <div id="experienceList" class="timeline"></div>
+</section>
+
+<section id="products" class="section">
+  <div class="section-heading"><span>03</span><h2 id="productsHeading">Products & Solutions</h2></div>
+  <p class="section-lead" id="productsLead">Digital products and services I work with to solve real business needs.</p>
+  <div id="productsGrid" class="product-grid"></div>
+</section>
+
+<section id="blog" class="section alt">
+  <div class="section-heading"><span>04</span><h2>Blog & Insights</h2></div>
+  <div class="blog-toolbar"><p>Write and publish your own articles directly from this website.</p><button class="primary" onclick="openBlogEditor()">＋ Write a Blog</button></div>
+  <div id="blogGrid" class="blog-grid"></div>
+</section>
+
+<section id="contact" class="section contact-section">
+  <div class="section-heading"><span>05</span><h2 id="contactHeading">Let's Connect</h2></div>
+  <div class="contact-grid">
+    <div><h3 id="contactTitle">Md. Miraz Khalifa</h3><p id="contactRole">Business Development Manager<br>INovex Idea Solution Limited</p></div>
+    <div class="contact-card"><div><small>Phone</small><a id="phoneLink" href="tel:01575395282">01575395282</a></div><div><small>Email</small><a id="emailLink" href="mailto:mirazkhalifa.cou@gmail.com">mirazkhalifa.cou@gmail.com</a></div><div><small>Address</small><p id="addressText"></p></div></div>
+  </div>
+</section>
+</main>
+
+<footer><p>© <span id="year"></span> <span id="footerName">Md. Miraz Khalifa</span>. All rights reserved.</p></footer>
+
+<!-- Product detail modal -->
+<div id="productModal" class="modal"><div class="modal-box"><button class="close" onclick="closeModal('productModal')">×</button><img id="modalProductImage"><h2 id="modalProductTitle"></h2><p id="modalProductDesc"></p></div></div>
+
+<!-- Admin/editor -->
+
+  <div id="general" class="tab active">
+    <label>Name<input id="eName"></label><label>Position<input id="eRole"></label><label>Hero text<textarea id="eHeroIntro"></textarea></label>
+    <div class="two"><label>Hero photo<input type="file" id="eHeroImage" accept="image/*"></label><label>About photo<input type="file" id="eAboutImage" accept="image/*"></label></div>
+    <label>About page short intro<textarea id="eAboutText"></textarea></label>
+  </div>
+  <div id="aboutTab" class="tab"><label>Stat 1<input id="eStat1"></label><label>Stat 2<input id="eStat2"></label><label>Stat 3<input id="eStat3"></label></div>
+  <div id="expTab" class="tab"><div id="expEditorList"></div><button class="secondary wide" onclick="addExperience()">＋ Add Experience</button></div>
+  <div id="sectionTab" class="tab">
+    <h3>Section Titles & Text</h3>
+    <label>Products & Solutions heading<input id="eProductsHeading"></label>
+    <label>Products intro<textarea id="eProductsLead"></textarea></label>
+    <label>Let's Connect heading<input id="eContactHeading"></label>
+    <label>Contact title<input id="eContactTitle2"></label>
+    <label>Contact role/company text<textarea id="eContactRole"></textarea></label>
+  </div>
+  <div id="prodTab" class="tab"><div id="prodEditorList"></div><button class="secondary wide" onclick="addProduct()">＋ Add Product</button></div>
+  <div id="contactTab" class="tab"><label>Phone<input id="ePhone"></label><label>Email<input id="eEmail"></label><label>Address<textarea id="eAddress"></textarea></label><label>Contact title<input id="eContactTitle"></label></div>
+  <div class="editor-actions"><button class="secondary" onclick="resetData()">Reset Demo Data</button><button class="primary" onclick="saveAll()">Save Changes</button></div>
+</div></div>
+
+<!-- Blog editor -->
+
+</div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
