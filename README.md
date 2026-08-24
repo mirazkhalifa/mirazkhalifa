@@ -1,16 +1,22 @@
-## Hi there 👋
+# Md. Miraz Khalifa Portfolio
 
-<!--
-**mirazkhalifa/mirazkhalifa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Open **index.html** directly or use VS Code Live Server.
 
-Here are some ideas to get you started:
+The homepage contains:
+- About
+- Work Experience
+- Products & Solutions with descriptions
+- Blog
+- Contact
+- Edit Website modal
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Default contact:
+Phone: 01575395282
+Email: mirazkhalifa.cou@gmail.com
+
+Products:
+MDM (Mobile Device Management), Inventory Management, PayProtect, Mobile Locker,
+Digital Signage, Lumocast, VTS (Vehicle Tracking System), Q-Management, Website Development.
+
+Click **Edit Website** to edit text, photos, work experience, products, contact details and blogs.
+Changes are stored in this browser.
