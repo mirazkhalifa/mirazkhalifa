@@ -1,22 +1,17 @@
-# Md. Miraz Khalifa Portfolio
+# Md. Miraz Khalifa — Professional Portfolio
 
-Open **index.html** directly or use VS Code Live Server.
+Static, responsive one-page portfolio ready for GitHub Pages or Vercel.
 
-The homepage contains:
-- About
-- Work Experience
-- Products & Solutions with descriptions
-- Blog
-- Contact
-- Edit Website modal
+## Publish on Vercel
+1. Extract the ZIP.
+2. Upload the folder to a GitHub repository, or import the repository directly into Vercel.
+3. No build command is required; this is a static HTML/CSS/JS site.
+4. The site uses only local assets and does not require a backend.
 
-Default contact:
-Phone: 01575395282
+## Contact
+Phone: +8801575395282
 Email: mirazkhalifa.cou@gmail.com
 
-Products:
-MDM (Mobile Device Management), Inventory Management, PayProtect, Mobile Locker,
-Digital Signage, Lumocast, VTS (Vehicle Tracking System), Q-Management, Website Development.
-
-Click **Edit Website** to edit text, photos, work experience, products, contact details and blogs.
-Changes are stored in this browser.
+## External company links
+INOVEX: https://web.inovexidea.com/
+Swosti: https://swosti.net/en_us/
